@@ -1,6 +1,6 @@
 # python3 -m homework 10 data/raw data/input data/output
 
-from .src.main import main
+from .src.main import WordCountApp
 
 if __name__ == "__main__":
-    main()
+    WordCountApp().run()
